@@ -39,7 +39,7 @@ const MAX_LAG_HOURS = 72;
 const RANK_BAND = 5;
 /** Lags are grouped in bands this wide, in hours. */
 const LAG_BAND_HOURS = 12;
-/** Share of each place left unnamed, shared by the games not named there. */
+/** Share of each place left unnamed, shared by the games not named there (keeps unnamed games above the log floor). */
 const UNNAMED = 0.3;
 /** A game is on the chart only while younger than this, in days. */
 const CHART_AGE_DAYS = 28;
